@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>منظم يومي - جَلينورا🌺</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- العنوان -->
+<div class="title-card">
+  رتب يومك مع جَلينورا🌺
+</div>
+
+<!-- الاسم -->
+<div class="label">ادخل اسمك:</div>
+<input type="text" id="name" placeholder="اكتب اسمك هنا">
+
+<!-- المهام -->
+<div class="label">ادخل مهامك:</div>
+
+<input type="text" id="task1" placeholder="المهمة الأولى">
+<input type="text" id="task2" placeholder="المهمة الثانية">
+<input type="text" id="task3" placeholder="المهمة الثالثة">
+<input type="text" id="task4" placeholder="المهمة الرابعة">
+<input type="text" id="task5" placeholder="المهمة الخامسة">
+
+<!-- المهام المنجزة -->
+<div class="done-box">
+  <p class="section-title">المهام المُنجزة</p>
+
+  <div class="check-grid">
+    <input type="text" placeholder="1">
+    <input type="text" placeholder="2">
+    <input type="text" placeholder="3">
+    <input type="text" placeholder="4">
+    <input type="text" placeholder="5">
+  </div>
+</div>
+
+<!-- ملاحظات -->
+<textarea id="notes" placeholder="ملاحظات"></textarea>
+
+<!-- زر -->
+<button onclick="generatePlan()" class="btn-main">
+  عرض خطتي
+</button>
+
+<!-- النتيجة -->
+<div class="result" id="result"></div>
+
+<!-- الفوتر -->
+<div class="footer">
+ منصة جَلينورا تكنولوجي تتمنى لك يومًا مليئًا بالإنجاز والتوفيق ✨
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

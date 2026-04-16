@@ -1,0 +1,113 @@
+body {
+  font-family: Arial;
+  background: #0b1f3a;
+  margin: 0;
+  direction: rtl;
+}
+
+/* الكرت الرئيسي */
+.container {
+  background: white;
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+/* العنوان 3D */
+.title-card {
+  background: linear-gradient(135deg, #0077ff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 0 #004a99, 0 18px 25px rgba(0,0,0,0.3);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* labels */
+.label {
+  background: #f0f6ff;
+  color: #0077ff;
+  font-weight: bold;
+  padding: 8px;
+  margin: 10px 6px 5px 6px;
+  border-radius: 10px;
+  border: 1px solid #cfe3ff;
+}
+
+/* inputs */
+input, textarea {
+  width: 92%;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* المهام المنجزة */
+.done-box {
+  background: #f0f6ff;
+  padding: 12px;
+  margin: 10px 6px;
+  border-radius: 12px;
+  border: 1px solid #cfe3ff;
+}
+
+.section-title {
+  font-weight: bold;
+  color: #0b1f3a;
+}
+
+.check-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.check-grid input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* الزر نفس العنوان 👑 */
+.btn-main {
+  background: linear-gradient(135deg, #0077ff, #00c6ff);
+  color: white;
+  padding: 12px;
+  width: 95%;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+
+  box-shadow: 0 10px 0 #004a99;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.btn-main:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 0 #004a99;
+}
+
+/* النتيجة */
+.result {
+  margin-top: 15px;
+  background: #eef6ff;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+/* الفوتر */
+.footer {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: #0b1f3a;
+  font-weight: bold;
+}
